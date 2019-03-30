@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.carre {
+    width: 150px;
+    height: 150px;
+}
+
+#titre {
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-family: 'Calibri';
+    font-size: 70px;
+    padding-top: 10px;
+    color: white;
+}
+
+#case1 {
+    border-right: solid 10px white;
+    border-bottom: solid 10px white;
+}
+
+#case2, #case3, #case4  {
+    border-right: solid 10px white;
+    border-bottom: solid 10px white;
+    border-left: solid 10px white;
+}
+
+#case5, #case10, #case15, #case20 {
+    border-bottom: solid 10px white;
+    border-left: solid 10px white;
+}
+
+#case6, #case7, #case8, #case9, #case11, #case12, #case13, #case14, #case16, #case17, #case18, #case19 {
+    border-right: solid 10px white;
+    border-bottom: solid 10px white;
+    border-top: solid 10px white;
+}
+
+#case21{
+    border-top: solid 10px white;
+}
+
+#case22, #case23 {
+    border-right: solid 10px white;
+    border-left: solid 10px white;
+    border-top: solid 10px white;
+}
+
+#case25 {
+    border-left: solid 10px white;
+    border-top: solid 10px white;
+}
+
+.jeu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#center {
+    margin: 0 auto;
+}
+
+#result {
+    font-family: 'Calibri';
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+@keyframes animateHide {
+    0% {
+        filter: blur(0);
+    }
+    100% {
+        filter: blur(10px);
+    }
+}
+
+@keyframes animateShow {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #cccc;
+}
