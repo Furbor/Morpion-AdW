@@ -7,6 +7,7 @@
 - Projet réalisé par __RAKOTOMALALA Lucas__ et __RAIGE-VERGER Julien__.
 
 <h2>Améliorations possibles :</h2>
+
 - Faire une stratégie gagnante pour la taille n×n.
 
 - Améliorer le rendu sur mobile.
