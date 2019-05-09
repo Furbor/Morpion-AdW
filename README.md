@@ -8,6 +8,8 @@
 
 <h2>Améliorations possibles :</h2>
 
-- Faire une stratégie gagnante pour la taille n×n.
+- Faire une stratégie gagnante pour la taille n×n pour l'ordinateur.
+
+- Générer automatiquement le CSS en fonction de la taille choisi pour l'ordinateur, sans tous les écrire à la main.
 
 - Améliorer le rendu sur mobile.
