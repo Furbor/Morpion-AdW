@@ -10,6 +10,6 @@
 
 - Faire une stratégie gagnante pour la taille n×n pour l'ordinateur.
 
-- Générer automatiquement le CSS en fonction de la taille choisi pour l'ordinateur, sans tous les écrire à la main.
+- Générer automatiquement le CSS en fonction de la taille choisi pour l'ordinateur, sans tous les écrire à la main et les stocker sur le serveur.
 
 - Améliorer le rendu sur mobile.
